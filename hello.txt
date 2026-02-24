@@ -1,1 +1,6 @@
-hlaskdjf
+Atomix!2
+
+too save my work...
+git add .
+git commit -m "some message"
+git push
