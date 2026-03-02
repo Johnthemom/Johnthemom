@@ -1,3 +1,3 @@
 panels = document.querySelectorAll('.panel')
 
-co
+console.log(panels)
