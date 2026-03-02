@@ -30,5 +30,6 @@ body{
 }
 
 .panel h3 {
-
+    position: absolute;
+    
 }
