@@ -36,3 +36,7 @@ body{
     font-size: 24px;
     margin: 0px;
 }
+
+.panel.active {
+    flex:10;
+}
