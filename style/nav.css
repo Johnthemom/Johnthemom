@@ -10,7 +10,7 @@ body {
     font-family: 'Roboto', sans-serif;
     background: #f4f4f4;
     color: #222;
-    padding-top: 80px; 
+    padding-top: 80px;
 }
 
 .container {
@@ -19,7 +19,6 @@ body {
     padding: 0 20px;
 }
 
-/* NAVBAR */
 .nav {
     position: fixed;
     top: 0;
@@ -37,7 +36,6 @@ body {
     padding: 20px 0;
 }
 
-/* ACTIVE NAV */
 .nav.active {
     background: #222;
 }
@@ -46,7 +44,6 @@ body {
     color: white;
 }
 
-/* LINKS */
 .nav ul {
     display: flex;
     list-style: none;
@@ -63,9 +60,9 @@ body {
     color: green;
 }
 
-/* HERO */
+
 .hero {
-    background: url('images/forest3.jpg') no-repeat center/cover;
+    background: url('images/cool.avif') no-repeat center/cover;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -92,7 +89,6 @@ body {
     margin-bottom: 10px;
 }
 
-/* CONTENT */
 .content {
     padding: 40px 20px;
 }
