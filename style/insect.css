@@ -6,13 +6,12 @@
 
 body {
     font-family: "Iosevka Charon Mono", monospace;
-    background: #777;
+    background: blue;
     color: white;
     margin: 0;
     text-align: center;
 }
 
-/* SCREENS */
 .screen {
     position: fixed;
     top: 0;
@@ -48,7 +47,6 @@ body {
     cursor: pointer;
 }
 
-/* INSECT LIST */
 .insect-list {
     display: flex;
     flex-wrap: wrap;
@@ -113,7 +111,6 @@ body {
     transform: scale(1);
 }
 
-/* INSECTS */
 .insect {
     width: 100px;
     height: 100px;
