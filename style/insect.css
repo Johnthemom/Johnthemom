@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Iosevka+Charon+Mono:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Iosevka+Charon+Mono&display=swap');
 
 * {
     box-sizing: border-box;
@@ -6,10 +6,9 @@
 
 body {
     font-family: "Iosevka Charon Mono", monospace;
-    background: #777777;
+    background: #777;
     color: white;
     height: 100vh;
-    /* overflow: hidden; */
     margin: 0;
     text-align: center;
 }
@@ -21,46 +20,31 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    transition: margin 1s ease-out;
+    transition: margin 0.8s ease-out;
 }
 
 .screen.up {
     margin-top: -100vh;
 }
 
-h1 {
-    line-height: 1.4;
-}
-
 .btn {
-    font-family: "Iosevka Charon Mono", monospace;
     border: 0;
     background: white;
-    color: #777777;
+    color: #777;
     padding: 15px 20px;
     cursor: pointer;
-}
-
-.btn:hover {
-    opacity: .9;
 }
 
 .insect-list {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    list-style-type: none;
-    padding: 0px;
+    list-style: none;
+    padding: 0;
 }
 
 .insect-list li {
     margin: 10px;
-}
-
-.choose-insect-btn img {
-    width: 100px;
-    height: 100px;
-    object-fit: contain;
 }
 
 .choose-insect-btn {
@@ -68,19 +52,18 @@ h1 {
     border: 2px solid white;
     color: white;
     cursor: pointer;
-    font-family: "Iosevka Charon Mono", monospace;
     width: 150px;
     height: 150px;
 }
 
-.choose-insect-btn:hover {
-    background: white;
-    color: #777777;
+.choose-insect-btn img {
+    width: 100px;
+    height: 100px;
 }
 
-.choose-insect-btn:active {
+.choose-insect-btn:hover {
     background: white;
-    opacity: .7;
+    color: #777;
 }
 
 .game-container {
@@ -100,36 +83,32 @@ h1 {
 }
 
 .message {
-    line-height: 1.7;
-    background: black;
+    position: absolute;
+    bottom: 0;
     width: 100%;
     padding: 20px;
-    z-index: 100;
-    text-align: center;
+    background: black;
     opacity: 0;
-    transform: scale(0)
+    transform: scale(0);
+    transition: 0.3s ease;
 }
 
 .message.visible {
     opacity: 1;
-    transform: scale(1)
+    transform: scale(1);
 }
 
 .insect {
     width: 100px;
     height: 100px;
+    position: absolute;
     cursor: pointer;
     display: flex;
-    align-items: center;
     justify-content: center;
-    position: absolute;
+    align-items: center;
 }
 
 .insect.caught {
     transform: scale(0);
-}
-
-.insect img {
-    width: 100px;
-    height: 100px;
+    transition: transform 0.3s ease;
 }
