@@ -62,7 +62,7 @@ body {
 
 
 .hero {
-    background: url('images/cool.avif') no-repeat center/cover;
+    background: url(`images/cool.avif`) no-repeat center/cover;
     height: 100vh;
     display: flex;
     align-items: center;
