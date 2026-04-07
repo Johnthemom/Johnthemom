@@ -62,7 +62,10 @@ body {
 
 
 .hero {
-    background: url(`images/cool.avif`) no-repeat center/cover;
+    background-image: url('images/cool.avif');
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: cover;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -70,6 +73,8 @@ body {
     color: white;
     text-align: center;
     position: relative;
+    margin-bottom: 20px;
+    z-index: -2:
 }
 
 .hero::before {
