@@ -51,3 +51,18 @@ body{
 .search.active .btn {
     transform: translateX(198px);
 }
+.home-btn {
+    position: fixed;
+    top: 15px;
+    right: 15px;
+    background-color: #1e3c72;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.home-btn:hover {
+    background-color: white;
+    color: #1e3c72;
+}
